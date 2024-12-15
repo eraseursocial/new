@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Login | Sport & Esports News</title>
+  <link rel="stylesheet" href="./css/login.css">
+  <link rel="shortcut icon" href="Images/favlogo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="nav1">
+            <ul> 
+                <a href="home.html"><img src="Images/logogo.png" alt="error photo!" class="hi2" title="Logo / Home"></a>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="sports.html">SPORTS <br>NEWS</a></li>
+                <li><a href="esports.html">ESPORTS <br>NEWS</a></li>
+                <li><a href="teams.html">TEAMS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+            </ul>
+        </nav>
+    </header>
+  <div class="container">
+    <div class="left">
+      <img src="Images/logogo.png" alt="error photo" class="imgh1">
+      <p>Stay updated with the news about sports and esports from around the world.</p>
+    </div>
+    <div class="right">
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Email or phone number" required>
+            <input type="password" id="password" placeholder="Password" required> <!-- Password field with hidden input -->
+            <button type="submit">Log In</button>
+            <a href="#" class="forgot-password">Forgot password?</a>
+            <hr>
+            <a href="create.html">
+              <button type="button" class="create-account">Create new account</button>
+            </a>
+          </form>
+    </div>
+  </div>
+<script src="./js/login.js"></script>
+</body>
+</html>

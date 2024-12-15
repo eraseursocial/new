@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home | Sport & Esports News</title>
+    <link rel="stylesheet" href="css/create.css">
+    <link rel="shortcut icon" href="Images/favlogo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="nav1">
+            <ul> 
+                <a href="home.html"><img src="Images/logogo.png" alt="error photo!" class="hi2" title="Logo / Home"></a>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="sports.html">SPORTS <br>NEWS</a></li>
+                <li><a href="esports.html">ESPORTS <br>NEWS</a></li>
+                <li><a href="teams.html">TEAMS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">  
+        <img src="Images/logogo.png" alt="error photo" class="imgh1">  
+        <h2>Create a new account</h2>  
+        <p>It's quick and easy.</p>  
+        <form id="signup-form">  
+            <div class="ff">
+                <input type="text" placeholder="First name" required>  
+                <input type="text" placeholder="Last name" required>
+            </div>
+            <label for="date" class="bb">Birthdate</label>
+            <input type="date" placeholder="Birthday" required>  
+            <div class="gender">  
+                <p>Gender</p>  
+                <label><input type="radio" name="gender" value="female" required> Female &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>  
+                <label><input type="radio" name="gender" value="male"> Male&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>  
+                <label><input type="radio" name="gender" value="custom"> Custom&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>  
+            </div>  
+            <input type="text" id="mobileOrEmail" placeholder="Mobile number or email" required>  
+            <input type="password" id="newPassword" placeholder="New password" required>
+            <input type="password" id="confirmPassword" placeholder="Confirm password" required>
+            <button type="submit">Sign Up</button>  
+        </form>  
+        <p>People who use our service may have uploaded your contact information to Sports & Esports News. <a href="./additional/about.html">Learn more.</a></p>  
+        <p>By clicking Sign Up, you agree to our <a href="./additional/term.html">Terms</a>, <a href="./additional/privacy.html">Privacy Policy</a>. You may receive SMS notifications from us and can opt out at any time.</p>  
+        <p><a href="login.html">Already have an account?</a></p>  
+    </div>
+<script src="js/create.js"></script>
+</body>
+</html>

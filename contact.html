@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contact | Sport & Esports News</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="shortcut icon" href="Images/favlogo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="nav1">
+            <ul> 
+                <a href="home.html"><img src="Images/logogo.png" alt="error photo!" class="hi2" title="Logo / Home"></a>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="sports.html">SPORTS <br>NEWS</a></li>
+                <li><a href="esports.html">ESPORTS <br>NEWS</a></li>
+                <li><a href="teams.html">TEAMS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contact-container">
+            <!-- Left Section -->
+            <div class="contact-info">
+                <h4>Contact Us</h4>
+                <h1>Get in touch today</h1>
+                <p>We love questions and feedback – and we’re always happy to help! Here are some ways to contact us.</p>
+                <div class="info-box">
+                    <div class="info1">
+                        <img src="Images/email.webp" alt="error photo" class="imge">
+                        <p>Email:</p>
+                        <span>SnEsnews@email.com</span>
+                    </div>
+                    <br>
+                    <div class="info1">
+                        <img src="Images/phone.jpg" alt="error photo" class="imge">
+                        <p>Phone:</p>
+                        <span>1738-777-8080</span>
+                    </div>
+                </div>
+                <p>Reach out to us on:</p>
+                <div class="social-icons">
+                    <a href="#"><img src="Images/facebook.png" alt="Facebook" class="imgl"></a>
+                    <a href="#"><img src="Images/x.webp" alt="Twitter" class="imgl"></a>
+                    <a href="#"><img src="Images/insta.webp" alt="Instagram" class="imgl"></a>
+                    <a href="#"><img src="Images/in.jpg" alt="LinkedIn" class="imgl"></a>
+                </div>
+            </div>
+    
+            <!-- Right Section -->
+            <div class="contact-form">
+                <div class="fbox">
+                    <form id="contactForm">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" placeholder="Your name" required>
+                        
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Your email address" required>
+                                                
+                        <label for="company">Company (optional)</label>
+                        <input type="text" id="company" placeholder="Company name">
+                        
+                        <label for="message">Leave us a message</label>
+                        <textarea id="message" placeholder="Write your message here..." required></textarea>
+                        
+                        <div class="captcha">
+                            <input type="checkbox" id="not-robot">
+                            <label for="not-robot">I'm not a robot</label>
+                        </div>
+                        
+                        <button type="submit" class="send-btn">Send Message</button>
+                    </form>
+                </div>
+                <p id="captcha-status"></p>
+            </div>
+        </div>
+    <script src="js/contact.js"></script>
+</body>
+</html>
